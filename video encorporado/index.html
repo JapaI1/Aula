@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Incorporando Vídeo</title>
+		<style>
+			body {
+				background-color: #333;
+				color: #fff;
+				font-family: Arial, sans-serif;
+				text-align: center;
+			}
+			.container {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 20px;
+				margin-top: 50px;
+			}
+			.video-item {
+				width: 300px;
+				text-align: center;
+			}
+			.video-item img {
+				width: 100%;
+				border-radius: 10px;
+				cursor: pointer;
+				transition: transform 0.2s;
+			}
+			.video-item img:hover {
+				transform: scale(1.05);
+			}
+			.video-item h3 {
+				margin-top: 10px;
+				font-size: 18px;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Exemplo de Vídeo Incorporado</h1>
+
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/YfXpNIQbdjo?si=kfIfI3QZEuFYAXJ1"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		>
+		</iframe>
+	</body>
+</html>
