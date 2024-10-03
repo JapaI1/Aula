@@ -7,21 +7,21 @@
 		<style>
 			body {
 				height: 100vh;
-				/* background-color: black;
-				background-image: url(img/wallpaper002.jpg);
-				background-position: center center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-attachment: fixed; */
 
-				/* Shorthand - background 
-                    color > image > position > repeat > 
-                    [size] > attachment
-                */
+				/* background-color: black;
+                   background-image: url(img/wallpaper002.jpg);
+                   background-position: center center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   background-attachment: fixed; works but too long */
+
+				/* Shorthand - background color > image > position > repeat > [size] > attachment should work, but cover doesn't */
+
+				/*background: black url(img/wallpaper002.jpg) center center no-repeat cover fixed;  'cover' doesn't work bc IDK*/
 
 				background: black url(img/wallpaper002.jpg) center center no-repeat
 					fixed;
-				background-size: cover;
+				background-size: cover; /*only works in this format*/
 			}
 			main {
 				background-color: white;
