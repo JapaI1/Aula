@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tabelas com Mesclagem de Células</title>
+		<link rel="stylesheet" href="style3.css" />
+	</head>
+	<body>
+		<nav>
+			<a href="#row1">Primeira Linha</a>
+			<a href="#row2">Segunda Linha</a>
+			<a href="#row3">Terceira Linha</a>
+			<a href="#row4">Quarta Linha</a>
+		</nav>
+
+		<h1>Mesclagem de Células</h1>
+		<table>
+			<tr id="row1">
+				<td>A</td>
+				<td colspan="2">B</td>
+			</tr>
+			<tr id="row2">
+				<td rowspan="3">D</td>
+				<td>E</td>
+				<td rowspan="2">F</td>
+			</tr>
+			<tr id="row3">
+				<td>H</td>
+			</tr>
+			<tr id="row4">
+				<td colspan="2">M</td>
+			</tr>
+		</table>
+	</body>
+</html>
