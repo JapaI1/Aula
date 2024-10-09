@@ -49,7 +49,7 @@ tbody > tr:nth-child(odd) {
 }
 
 tbody > tr:nth-child(even) {
-	background-color: whitesmoke;
+	background-color: #f0f0f0;
 }
 
 td.num {
