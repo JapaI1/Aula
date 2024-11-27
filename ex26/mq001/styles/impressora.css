@@ -15,5 +15,5 @@ menu {
 	display: none;
 }
 article::after {
-	content: 'Esse artigo foi impresso através do site www.github.io/levirodrigo';
+	content: 'Esse artigo foi impresso através do site www.github.io';
 }
